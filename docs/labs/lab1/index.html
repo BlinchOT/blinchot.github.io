@@ -45,7 +45,39 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
+    <a href="../" class="dropdown-item">Лабораторные работы</a>
+</li>
+                                    
+<li>
     <a href="./" class="dropdown-item active" aria-current="page">Лабораторная работа №1: Создание статического сайта на MkDocs</a>
+</li>
+                                    
+<li>
+    <a href="../lab2/" class="dropdown-item">Лабораторная работа №2</a>
+</li>
+                                    
+<li>
+    <a href="../lab3/" class="dropdown-item">Лабораторная работа №3</a>
+</li>
+                                    
+<li>
+    <a href="../lab4/" class="dropdown-item">Лабораторная работа №4</a>
+</li>
+                                    
+<li>
+    <a href="../lab5/" class="dropdown-item">Лабораторная работа №5</a>
+</li>
+                                    
+<li>
+    <a href="../lab6/" class="dropdown-item">Лабораторная работа №2</a>
+</li>
+                                    
+<li>
+    <a href="../lab7/" class="dropdown-item">Лабораторная работа №2</a>
+</li>
+                                    
+<li>
+    <a href="../lab8/" class="dropdown-item">Лабораторная работа №2</a>
 </li>
                                 </ul>
                             </li>
@@ -58,12 +90,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../../about/" class="nav-link">
+                                <a rel="prev" href="../" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../lab2/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -95,6 +127,14 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_3" class="nav-link">Код / Команды</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_4" class="nav-link">Выводы</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -110,7 +150,16 @@
 <li>Создать репозиторий</li>
 <li>Настроить GitHub Pages из папки <code>/docs</code></li>
 <li>Развернуть сайт</li>
-</ol></div>
+</ol>
+<h2 id="_3">Код / Команды</h2>
+<pre><code class="language-bash">mkdocs new source
+mkdocs build -d ../docs
+git add .
+git commit -m &quot;Deploy site&quot;
+git push
+</code></pre>
+<h2 id="_4">Выводы</h2>
+<p>Я научился генерировать статический сайт и публиковать его в интернете.</p></div>
             </div>
         </div>
 

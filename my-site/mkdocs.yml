@@ -15,8 +15,12 @@ nav:
   - Главная: index.md
   - Об авторе: about.md
   - Лабораторные работы:
-      - Лабораторная работа №1: labs/lab1.md
-      - Лабораторная работа №2: labs/lab2.md
-      - Лабораторная работа №3: labs/lab3.md
-      - Лабораторная работа №4: labs/lab4.md
-      - Лабораторная работа №5: labs/lab5.md
+      - Обзор: labs/index.md
+      - ЛР №1: labs/lab1.md
+      - ЛР №2: labs/lab2.md
+      - ЛР №3: labs/lab3.md
+      - ЛР №4: labs/lab4.md
+      - ЛР №5: labs/lab5.md
+      - ЛР №6: labs/lab6.md
+      - ЛР №7: labs/lab7.md
+      - ЛР №8: labs/lab8.md
