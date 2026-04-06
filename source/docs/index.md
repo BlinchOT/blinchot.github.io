@@ -13,5 +13,5 @@
 
 ## Ссылки на проект
 
-- Репозиторий с исходниками: [github.com/BlinchOT/mkdocs0902](https://github.com/BlinchOT/mkdocs0902)
-- Сайт портфолио: [BlinchOT.github.io/mkdocs0902](https://blinchot.github.io/mkdocs0902)
+- Репозиторий с исходниками: [github.com/BlinchOT/blinchot.github.io](https://github.com/BlinchOT/blinchot.github.io)
+- Сайт портфолио: [BlinchOT.github.io/blinchot.github.io](https://blinchot.github.io/blinchot.github.io)
