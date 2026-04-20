@@ -521,6 +521,56 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
+        Отчёт
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Отчёт">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание задачи
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Как было решено
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Нюансы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         Исходный код
       
     </span>
@@ -563,7 +613,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
         Выводы
@@ -814,6 +864,56 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
+        Отчёт
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Отчёт">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание задачи
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Как было решено
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Нюансы
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
         Исходный код
       
     </span>
@@ -856,7 +956,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     <span class="md-ellipsis">
       
         Выводы
@@ -893,7 +993,19 @@
 <p>Освоить основные операции с массивами NumPy, векторные и матричные вычисления, статистический анализ данных и визуализацию.</p>
 <h2 id="_2">Задание</h2>
 <p>Реализовать функции для создания массивов, векторных и матричных операций, статистического анализа и визуализации данных.</p>
-<h2 id="_3">Исходный код</h2>
+<h2 id="_3">Отчёт</h2>
+<h3 id="_4">Описание задачи</h3>
+<p>Требовалось написать набор функций для работы с NumPy: создание и преобразование массивов, арифметические операции, матричные вычисления (умножение, определитель, обратная матрица, решение СЛАУ), статистический анализ данных оценок студентов и построение графиков.</p>
+<h3 id="_5">Как было решено</h3>
+<p>Все функции реализованы через встроенные методы NumPy без циклов. Для загрузки данных использован pandas, для статистики — numpy, для графиков — matplotlib и seaborn. Тесты проверяют корректность каждой функции.</p>
+<h3 id="_6">Нюансы</h3>
+<ul>
+<li>Векторизация важна для производительности</li>
+<li>Методы reshape и T возвращают view, а не копию</li>
+<li>При нормализации нужно учитывать случай max == min</li>
+<li>Не все матрицы обратимы</li>
+</ul>
+<h2 id="_7">Исходный код</h2>
 <h3 id="mainpy">main.py</h3>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">#</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1"># Лабораторная работа: Численные вычисления и анализ данных с использованием NumPy</span>
@@ -1562,8 +1674,8 @@
 </span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="mi">84</span><span class="p">,</span><span class="mi">86</span><span class="p">,</span><span class="mi">85</span>
 </span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="mi">90</span><span class="p">,</span><span class="mi">93</span><span class="p">,</span><span class="mi">92</span>
 </span></code></pre></div>
-<h3 id="_4">Выводы</h3>
-<p>В ходе работы изучены функции NumPy для вычислений массивов и векторых операций.</p>
+<h3 id="_8">Выводы</h3>
+<p>В ходе работы я освоил основные операции с массивами NumPy, векторные и матричные вычисления, статистический анализ данных и визуализацию.</p>
 
 
 
