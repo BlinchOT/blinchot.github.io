@@ -50,7 +50,7 @@
 
 | Платформа | Сайт | Репозиторий |
 |-----------|------|-------------|
-| SourceCraft | [2212.sourcecraft.site/mkdocs0902](https://2212.sourcecraft.site/mkdocs0902) | [git.sourcecraft.dev/2212/mkdocs0902](https://git.sourcecraft.dev/2212/mkdocs0902) |
+| SourceCraft | [2212.sourcecraft.site/mkdocs0902](https://2212.sourcecraft.site/mkdocs0902) | [sourcecraft.dev/2212/mkdocs0902](https://sourcecraft.dev/2212/mkdocs0902) |
 | GitHub Pages | [blinchot.github.io/Lr3-2](https://blinchot.github.io/Lr3-2) | [github.com/BlinchOT/Lr3-2](https://github.com/BlinchOT/Lr3-2) |
 
 ## Выводы
