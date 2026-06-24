@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#no3" class="md-skip">
+        <a href="#no3-cicd" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -549,7 +549,85 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Код / Команды
+        Выполненные действия
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Выполненные действия">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sourcecraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SourceCraft
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitHub Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Настройки репозиториев
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройки репозиториев">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Настройки GitHub
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sourcecraft_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Настройки SourceCraft
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ссылки на результат
       
     </span>
   </a>
@@ -557,7 +635,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
         Выводы
@@ -775,7 +853,85 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Код / Команды
+        Выполненные действия
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Выполненные действия">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sourcecraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SourceCraft
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitHub Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Настройки репозиториев
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Настройки репозиториев">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Настройки GitHub
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sourcecraft_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Настройки SourceCraft
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ссылки на результат
       
     </span>
   </a>
@@ -783,7 +939,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
         Выводы
@@ -810,13 +966,73 @@
 
 
 
-<h1 id="no3">Лабораторная работа №3</h1>
+<h1 id="no3-cicd">Лабораторная работа №3: CI/CD для статического сайта</h1>
 <h2 id="_1">Цель работы</h2>
+<p>Настроить непрерывную интеграцию и доставку (CI/CD) для статического сайта на MkDocs с использованием платформы SourceCraft и GitHub Actions.</p>
 <h2 id="_2">Задание</h2>
-<h2 id="_3">Код / Команды</h2>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>
-</span></code></pre></div>
-<h2 id="_4">Выводы</h2>
+<ol>
+<li>Реализовать автоматическое развертывание сайта на платформе SourceCraft.</li>
+<li>Реализовать автоматическое развертывание этого же сайта на GitHub Pages с помощью GitHub Actions.</li>
+<li>В рамках одного локального репозитория настроить два удалённых репозитория (sourcecraft и origin).</li>
+<li>Предоставить четыре ссылки: на сайт и репозиторий в SourceCraft, на сайт и репозиторий на GitHub.</li>
+</ol>
+<h2 id="_3">Выполненные действия</h2>
+<h3 id="sourcecraft">SourceCraft</h3>
+<ol>
+<li>Зарегистрировался на SourceCraft и создал публичную организацию <code>2212</code>.</li>
+<li>Создал публичный репозиторий <code>mkdocs0902</code>.</li>
+<li>Создал персональный токен доступа (PAT) с правами Maintainer.</li>
+<li>Добавил удалённый репозиторий SourceCraft в локальный проект</li>
+<li>Настроил файлы <code>.sourcecraft/sites.yaml</code> и <code>.sourcecraft/ci.yaml</code> для автоматического деплоя при пуше в ветку <code>main</code>.</li>
+<li>Выполнил пуш в SourceCraft: <code>git push sourcecraft main</code>.</li>
+</ol>
+<h3 id="github-actions">GitHub Actions</h3>
+<ol>
+<li>Создал файл <code>.github/workflows/pages.yml</code> для автоматической сборки и публикации сайта.</li>
+<li>Настроил GitHub Pages в репозитории <code>BlinchOT/Lr3-2</code> на использование GitHub Actions.</li>
+<li>Выполнил пуш в GitHub: <code>git push origin main</code>.</li>
+<li>GitHub Actions автоматически собрал сайт и опубликовал его на GitHub Pages.</li>
+</ol>
+<h2 id="_4">Настройки репозиториев</h2>
+<h3 id="github">Настройки GitHub</h3>
+<ul>
+<li>Репозиторий: <code>BlinchOT/Lr3-2</code></li>
+<li>GitHub Pages включен, публикация через GitHub Actions</li>
+<li>Workflow-файл: <code>.github/workflows/pages.yml</code></li>
+<li>Права для GITHUB_TOKEN: <code>contents: write</code> (добавлено в workflow)</li>
+</ul>
+<h3 id="sourcecraft_1">Настройки SourceCraft</h3>
+<ul>
+<li>Организация: <code>2212</code></li>
+<li>Репозиторий: <code>mkdocs0902</code></li>
+<li>Токен с правами Maintainer</li>
+<li>Конфигурационные файлы: <code>.sourcecraft/sites.yaml</code>, <code>.sourcecraft/ci.yaml</code></li>
+<li>Ветка для публикации: <code>release</code></li>
+</ul>
+<h2 id="_5">Ссылки на результат</h2>
+<table>
+<thead>
+<tr>
+<th>Платформа</th>
+<th>Сайт</th>
+<th>Репозиторий</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SourceCraft</td>
+<td><a href="https://2212.sourcecraft.site/mkdocs0902">2212.sourcecraft.site/mkdocs0902</a></td>
+<td><a href="https://git.sourcecraft.dev/2212/mkdocs0902">git.sourcecraft.dev/2212/mkdocs0902</a></td>
+</tr>
+<tr>
+<td>GitHub Pages</td>
+<td><a href="https://blinchot.github.io/Lr3-2">blinchot.github.io/Lr3-2</a></td>
+<td><a href="https://github.com/BlinchOT/Lr3-2">github.com/BlinchOT/Lr3-2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">Выводы</h2>
+<p>В ходе работы я настроил CI/CD для статического сайта на двух платформах: SourceCraft и GitHub Pages. Автоматическая сборка и деплой происходят при каждом пуше в ветку <code>main</code>. Это позволяет быстро обновлять сайт без ручных операций.</p>
 
 
 
