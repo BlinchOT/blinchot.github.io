@@ -2,7 +2,7 @@
 
 ## Ссылка на Jupyter Notebook
 
-[lab4.ipynb](https://github.com/BlinchOT/blinchot.github.io/blob/main/notebooks/lab4.ipynb)
+[lab4.ipynb](https://github.com/BlinchOT/blinchot.github.io/blob/main/notebooks/Осипов_Тимофей_Р3124__s2p1_predict_credit_default_tasks_.ipynb)
 
 ## Описание работы
 
