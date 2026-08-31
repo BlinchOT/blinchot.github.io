@@ -2,7 +2,7 @@
 
 ## Ссылка на Jupyter Notebook
 
-[Ноутбук lab5](https://github.com/BlinchOT/blinchot.github.io/blob/main/notebooks/%D0%9E%D1%81%D0%B8%D0%BF%D0%BE%D0%B2_%D0%A2%D0%B8%D0%BC%D0%BE%D1%84%D0%B5%D0%B9_%D0%A03124__s1p1_predict_house_price_tasks_.ipynb)
+[Ноутбук lab5](https://colab.research.google.com/drive/1R8XwkaDYUAzE0yiVf30m4uUvsdX3bObN?usp=sharing)
 
 ## Описание работы
 
