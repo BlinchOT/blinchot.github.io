@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#no5" class="md-skip">
+        <a href="#no5-scikit-learn" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -580,40 +580,68 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#jupyter-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ссылка на Jupyter Notebook
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Цель работы
+        Описание работы
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Описание работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Задание
+        Основные этапы
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Код / Команды
+        Самостоятельная работа
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результаты сравнения моделей
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         Выводы
@@ -750,40 +778,68 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#jupyter-notebook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ссылка на Jupyter Notebook
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Цель работы
+        Описание работы
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Описание работы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Задание
+        Основные этапы
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Код / Команды
+        Самостоятельная работа
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Результаты сравнения моделей
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
         Выводы
@@ -810,13 +866,73 @@
 
 
 
-<h1 id="no5">Лабораторная работа №5</h1>
-<h2 id="_1">Цель работы</h2>
-<h2 id="_2">Задание</h2>
-<h2 id="_3">Код / Команды</h2>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>
-</span></code></pre></div>
-<h2 id="_4">Выводы</h2>
+<h1 id="no5-scikit-learn">Лабораторная работа №5: Регрессия с применением Scikit-Learn</h1>
+<h2 id="jupyter-notebook">Ссылка на Jupyter Notebook</h2>
+<p><a href="https://github.com/BlinchOT/blinchot.github.io/blob/main/notebooks/%D0%9E%D1%81%D0%B8%D0%BF%D0%BE%D0%B2_%D0%A2%D0%B8%D0%BC%D0%BE%D1%84%D0%B5%D0%B9_%D0%A03124__s1p1_predict_house_price_tasks_.ipynb">Ноутбук lab5</a></p>
+<h2 id="_1">Описание работы</h2>
+<p>В работе выполнено предсказание стоимости домов в округе Кинг (США) с использованием регрессионных моделей.</p>
+<h3 id="_2">Основные этапы</h3>
+<ol>
+<li>Загрузка и предобработка данных</li>
+<li>Обучение моделей:</li>
+<li>Линейная регрессия</li>
+<li>Случайный лес</li>
+<li>Оценка качества на тестовой выборке</li>
+</ol>
+<h3 id="_3">Самостоятельная работа</h3>
+<ol>
+<li>
+<p><strong>Исключение незначащих признаков</strong><br />
+   Были удалены признаки с наименьшей важностью (<code>Год реновации</code>, <code>Количество этажей</code>, <code>Спальни</code>, <code>Состояние</code>, <code>Площадь подвала</code>). Качество модели практически не изменилось.</p>
+</li>
+<li>
+<p><strong>Настройка гиперпараметров Random Forest</strong><br />
+   Использована конфигурация: <code>n_estimators=150</code>, <code>max_depth=20</code>, <code>min_samples_split=5</code>, <code>min_samples_leaf=2</code>. Улучшение незначительное.</p>
+</li>
+<li>
+<p><strong>Сравнение моделей</strong><br />
+   Лучший результат показал Random Forest (MAE ≈ 70 860, RMSE ≈ 135 634). Градиентный бустинг немного уступил, а линейная регрессия и SVM — значительно хуже.</p>
+</li>
+</ol>
+<h2 id="_4">Результаты сравнения моделей</h2>
+<table>
+<thead>
+<tr>
+<th>Модель</th>
+<th>MAE</th>
+<th>RMSE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Random Forest (по умолчанию)</strong></td>
+<td><strong>70 860.70</strong></td>
+<td><strong>135 634.26</strong></td>
+</tr>
+<tr>
+<td>Random Forest (настроенный)</td>
+<td>70 572.13</td>
+<td>135 653.18</td>
+</tr>
+<tr>
+<td>Градиентный бустинг</td>
+<td>79 094.90</td>
+<td>140 376.03</td>
+</tr>
+<tr>
+<td>Линейная регрессия</td>
+<td>126 852.51</td>
+<td>201 883.24</td>
+</tr>
+<tr>
+<td>SVM</td>
+<td>223 864.91</td>
+<td>380 715.79</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_5">Выводы</h2>
+<p>Модель <strong>Random Forest</strong> показала наилучший результат и является оптимальным выбором для данной задачи. Удаление слабых признаков и настройка гиперпараметров не дали существенного улучшения, что говорит о стабильности базовой модели.</p>
 
 
 
