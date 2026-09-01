@@ -279,4 +279,4 @@ Age (возраст):
 
 ## Ссылка на Jupyter Notebook
 
-[Ноутбук lab6](https://github.com/BlinchOT/blinchot.github.io/blob/main/notebooks/Осипов_Тимофей_Р3124_lab6_titanic.ipynb)
+[Ноутбук lab6](https://colab.research.google.com/drive/1aK5Spqi-67tx1L2lUmsOA8HZSU6T_dSD?usp=sharing)
