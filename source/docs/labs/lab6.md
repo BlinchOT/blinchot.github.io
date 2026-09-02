@@ -66,7 +66,7 @@
 
 **Визуализация пропусков:**
 
-![Гистограммы числовых признаков](https://github.com/BlinchOT/blinchot.github.io/blob/main/docs/assets/images/histograms.png?raw=true)
+![Гистограммы числовых признаков](/assets/images/histograms.png)
 
 ## Обработка пропусков
 
@@ -108,7 +108,7 @@
 | G | 4 |
 | T | 1 |
 
-![Распределение Age после заполнения](https://github.com/BlinchOT/blinchot.github.io/blob/main/docs/assets/images/age_distribution.png?raw=true)
+![Распределение Age после заполнения](/assets/images/age_distribution.png)
 
 ## Трансформация данных
 
@@ -182,7 +182,7 @@ Age (возраст):
 | Fare | 112.08 | 112.08 |
 | Age | 54.00 | 54.00 |
 
-![Boxplot Fare](https://github.com/BlinchOT/blinchot.github.io/blob/main/docs/assets/images/boxplot_fare.png?raw=true)
+![Boxplot Fare](/assets/images/boxplot_fare.png)
 
 ## Агрегация и анализ
 
@@ -225,7 +225,7 @@ Age (возраст):
 | Middle | 0.58 | 0.39 | 0.06 |
 | Senior | 0.21 | 0.33 | 0.20 |
 
-![Тепловая карта корреляции](https://github.com/BlinchOT/blinchot.github.io/blob/main/docs/assets/images/correlation_heatmap.png?raw=true)
+![Тепловая карта корреляции](/assets/images/correlation_heatmap.png)
 
 ## Метрики качества очистки
 
