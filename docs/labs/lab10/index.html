@@ -65,6 +65,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#no10-ml-" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -659,6 +664,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ЛР №10
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -676,6 +701,102 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание задачи
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Используемые данные
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Обучение модели
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API и интерфейс
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ссылка на репозиторий
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Выводы
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -706,6 +827,93 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Описание задачи
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Используемые данные
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Обучение модели
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API и интерфейс
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ссылка на репозиторий
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Выводы
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -722,9 +930,29 @@
 
 
 
-  <h1>ЛР №10</h1>
-
-
+<h1 id="no10-ml-">Лабораторная работа №10: Разработка ML-сервиса для предсказания одобрения ипотеки</h1>
+<h2 id="_1">Цель работы</h2>
+<p>Освоить полный цикл разработки ML-сервиса: от обучения модели до создания API и веб-интерфейса.</p>
+<h2 id="_2">Описание задачи</h2>
+<p>Разработан консультирующий сервис, который предсказывает вероятность одобрения ипотеки на основе данных клиента. Сервис реализован на FastAPI и включает три эндпоинта:</p>
+<ul>
+<li><code>POST /upload-model</code> — загрузка обученной модели в формате <code>.pkl</code>.</li>
+<li><code>POST /predict</code> — предсказание по JSON-запросу.</li>
+<li><code>POST /predict-from-csv</code> — предсказание по загруженному CSV-файлу.</li>
+</ul>
+<h2 id="_3">Используемые данные</h2>
+<p>Датасет содержит информацию о клиентах: возраст, пол, доход, кредитная история, сумма и цель кредита и другие признаки. Целевая переменная — <code>loan_status</code> (1 — одобрено, 0 — отказано).</p>
+<h2 id="_4">Обучение модели</h2>
+<p>Были обучены и сравнены две модели:
+- Логистическая регрессия (ROC-AUC = 0.9483)
+- Случайный лес (ROC-AUC = 0.9735)</p>
+<p>Лучшая модель (случайный лес) сохранена и используется в сервисе.</p>
+<h2 id="api">API и интерфейс</h2>
+<p>Реализован веб-интерфейс для ручного ввода данных и получения предсказания. Доступен по адресу <code>/</code> при запуске сервера.</p>
+<h2 id="_5">Ссылка на репозиторий</h2>
+<p><a href="https://github.com/BlinchOT/mortgage-predictor">Исходный код сервиса</a></p>
+<h2 id="_6">Выводы</h2>
+<p>В ходе работы был разработан полноценный ML-сервис с обучением модели, API и веб-интерфейсом. Настроен CI/CD (по аналогии с предыдущими работами). Сервис готов к использованию.</p>
 
 
 
